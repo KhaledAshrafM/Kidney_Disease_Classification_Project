@@ -163,3 +163,6 @@ artifacts/*
 *.zipptnzvgwftmp
 .gitignore
 logs/
+logs/running_logs.log
+.gitignore
+.gitignore
