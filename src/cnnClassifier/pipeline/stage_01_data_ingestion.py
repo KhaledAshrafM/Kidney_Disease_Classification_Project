@@ -1,3 +1,13 @@
+import os
+import sys
+
+# Get the absolute path of the project directory (root of the kidney project)
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+
+# Append the project directory to the system path
+sys.path.append(project_root)
+
+# Now you can import the desired class from configuration.py
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.data_ingestion import DataIngestion
 from src.cnnClassifier import logger

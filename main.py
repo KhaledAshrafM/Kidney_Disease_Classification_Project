@@ -5,16 +5,16 @@ from src.cnnClassifier.pipeline.stage_03_model_training import ModelTrainingPipe
 from src.cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
 
 
-# STAGE_NAME = "Data Ingestion stage"
-# if __name__ == '__main__':
-#     try:
-#         logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
-#         data_ingestion = DataIngestionTrainingPipeline()
-#         data_ingestion.main()
-#         logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<<\nnx=======x")
-#     except Exception as e:
-#         logger.exception(e)
-#         raise e
+STAGE_NAME = "Data Ingestion stage"
+if __name__ == '__main__':
+    try:
+        logger.info(f">>>>> stage {STAGE_NAME} started <<<<<")
+        data_ingestion = DataIngestionTrainingPipeline()
+        data_ingestion.main()
+        logger.info(f">>>>> stage {STAGE_NAME} completed <<<<<<\nnx=======x")
+    except Exception as e:
+        logger.exception(e)
+        raise e
     
 
 STAGE_NAME = "Prepare base model"

@@ -1,3 +1,12 @@
+import os
+import sys
+
+# Get the absolute path of the project directory (root of the kidney project)
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..'))
+
+# Append the project directory to the system path
+sys.path.append(project_root)
+
 from src.cnnClassifier.config.configuration import ConfigurationManager
 from src.cnnClassifier.components.prepare_base_model import PrepareBaseModel
 from src.cnnClassifier import logger
