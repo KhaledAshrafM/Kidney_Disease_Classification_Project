@@ -662,3 +662,4 @@ FileNotFoundError: [WinError 3] The system cannot find the path specified: 'arti
 [2024-04-26 14:25:21,290: INFO: common: json file saved at: scores.json]
 [2024-04-26 14:25:21,290: INFO: main: >>>>>> stage Evaluation completed <<<<<<
  'nx========]
+[2024-04-26 14:36:39,380: INFO: _internal: 127.0.0.1 - - [26/Apr/2024 14:36:39] "POST /predict HTTP/1.1" 200 -]
