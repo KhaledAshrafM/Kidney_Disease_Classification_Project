@@ -166,3 +166,6 @@ logs/
 logs/running_logs.log
 .gitignore
 .gitignore
+
+artifacts
+artifacts\data_ingestion\CT-KIDNEY-DATASET-Normal-Tumor
